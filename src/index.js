@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './components/app';
+import App from './components/app';
 
-class WhoAmI extends Component {
+/*class WhoAmI extends Component {
 
   constructor(props) {
     super(props)
@@ -16,7 +16,7 @@ class WhoAmI extends Component {
 
   ///////////////////////////////////////////////////////////////////////////////////////
 
- /* state = {
+ /!* state = {
     years: 26
   }
 
@@ -24,7 +24,7 @@ class WhoAmI extends Component {
     this.setState(state => ({
       years: ++state.years
     }))
-  }*/
+  }*!/
 
   ///////////////////////////////////////////////////////////////////////////////////////
 
@@ -64,8 +64,8 @@ const All = () => {
         <WhoAmI name="Aleksey" surname="Glass" link="lamoda.ru"/>
       </>
   )
-}
+}*/
 
-ReactDOM.render(<All/>, document.getElementById('root')
+ReactDOM.render(<App/>, document.getElementById('root')
 );
 
